@@ -1,0 +1,29 @@
+Model 1
+
+def create_baseline():
+    # create the model
+    model = Sequential()
+    model.add(Dense(8, kernel_initializer='normal', activation='relu'))
+    model.add(Dense(5, kernel_initializer='normal', activation='sigmoid'))
+    # Compile model. We use the the logarithmic loss function, and the Adam gradient optimizer.
+    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+    return model
+
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense_1 (Dense)              (None, 8)                 160       
+_________________________________________________________________
+dense_2 (Dense)              (None, 5)                 45        
+=================================================================
+Total params: 205
+Trainable params: 205
+Non-trainable params: 0
+_________________________________________________________________
+
+Accuracy: 
+loss: 0.4285 - acc: 0.8100 - val_loss: 0.3890 - val_acc: 0.9430
+
+
+Model 2
+
