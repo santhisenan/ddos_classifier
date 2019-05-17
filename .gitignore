@@ -1,3 +1,5 @@
-dataset
+.ipynb_checkpoints/
 _pycache_
+*.h5
+*.csv
 
