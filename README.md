@@ -17,5 +17,5 @@ Run the ```ann.ipynb``` notebook.
 ![Plot of accuracy](ANN_Model_Accuracy.png)
 
 ### Plot of loss
-![Plot of loss](ANN_Model_Loss.png)
+![Plot of loss](ANN_Model_loss.png)
 
