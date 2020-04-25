@@ -9,7 +9,8 @@
 Run the ```ann.ipynb``` notebook.
 
 ## Dataset used
-[Intrusion detection evaluation dataset (ISCXIDS2012)](https://www.unb.ca/cic/datasets/ids.html) was used for training and testing. 
+[Intrusion detection evaluation dataset (ISCXIDS2012)](https://www.unb.ca/cic/datasets/ids.html) was used for training and testing.
+
 Data exported as csv can be found [here](https://gitlab.com/santhisenan/ids_iscx_2012_dataset).
 
 ## Results
