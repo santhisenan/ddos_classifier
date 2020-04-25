@@ -1,7 +1,7 @@
 # A simple feed forward neural network for classification of DDoS attack packets
 
 ## Architecture of the model
-![Model](model_ann.png)
+![Model](images/model_ann.png)
 
 
 ## Usage
@@ -14,8 +14,8 @@ Run the ```ann.ipynb``` notebook.
 ## Results
 
 ### Plot of accuracy
-![Plot of accuracy](ANN_Model_Accuracy.png)
+![Plot of accuracy](results/ANN_Model_Accuracy_100.png)
 
 ### Plot of loss
-![Plot of loss](ANN_Model_loss.png)
+![Plot of loss](results/ANN_Model_loss_100.png)
 
